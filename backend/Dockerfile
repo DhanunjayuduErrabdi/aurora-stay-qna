@@ -18,7 +18,7 @@ ENV HF_HOME=/app/huggingface
 RUN python -c "\
 from langchain_huggingface import HuggingFaceEmbeddings; \
 HuggingFaceEmbeddings( \
-    model_name='HarishMaths/Hotel-Policy-Embedding', \
+    model_name='dhanu0310/Hotel_Policy_Model_Embedding', \
     model_kwargs={'device': 'cpu'}, \
     encode_kwargs={'normalize_embeddings': True} \
 )"

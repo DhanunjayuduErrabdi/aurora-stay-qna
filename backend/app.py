@@ -12,7 +12,7 @@ from rag_utils import retrieve, rag
 # Configuration
 # ---------------------------------------------------------
 
-EMBED_MODEL = "HarishMaths/Hotel-Policy-Embedding"
+EMBED_MODEL = "dhanu0310/Hotel_Policy_Model_Embedding"
 VECTORSTORE_PATH = "faiss_index"
 
 
